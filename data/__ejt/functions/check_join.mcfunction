@@ -1,0 +1,1 @@
+execute as @a[scores={registered=1..}] run function serverjointitle:join_title

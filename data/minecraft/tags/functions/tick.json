@@ -1,5 +1,3 @@
 {
-    "values": [
-      "__ejt:tick"
-    ]
-  }
+  "values": ["__ejt:check_join"]
+}
