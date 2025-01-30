@@ -5,6 +5,7 @@ title @a[scores={registered=1..}] title "Welcome to my Server"
 title @a[scores={registered=1..}] subtitle {"nbt":"subtitle","storage":"ejt:text"}
 
 # Chat Infos
+tellraw @a[scores={registered=1..}] " "
 tellraw @a[scores={registered=1..}] "Last Backup:"
 tellraw @a[scores={registered=1..}] {"nbt":"backup","storage":"ejt:text"}
 tellraw @a[scores={registered=1..}] " "
