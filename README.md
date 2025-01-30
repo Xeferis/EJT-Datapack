@@ -1,5 +1,7 @@
 # Easy Join Title - Datapack
 
+_Supports: Minecraft 1.20 - 1.21.4_
+
 This is a custom datapack for minecraft java edition wich enables you to add a Title for everyone joining the server.
 
 It should also enable you to manage the info displayed in game without accessing the datapacksfolder again.
