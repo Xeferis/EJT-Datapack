@@ -7,7 +7,14 @@ It should also enable you to manage the info displayed in game without accessing
 
 ### Available Commands
 ```
-data modify storage ejt:text subtitle set value "YOUR TEXT"
-data modify storage ejt:text backup set value "YOUR TEXT"
-data modify storage ejt:text infos set value "YOUR TEXT"
+# Setting the message values
+data modify storage ejt:text subtitle set value *YOUR TEXT*
+data modify storage ejt:text backup set value *YOUR TEXT*
+data modify storage ejt:text infos set value *YOUR TEXT*
+
+# Getting Help
+/function ejt:help
+
+# Cleanup Storage and reset message values
+/function ejt:clean_messages
 ```
