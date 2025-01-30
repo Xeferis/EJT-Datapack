@@ -5,3 +5,5 @@ tellraw @a {"nbt":"backup", "storage":"ejt:text"}
 tellraw @a " "
 tellraw @a "Infos: "
 tellraw @a {"nbt":"infos", "storage":"ejt:text"}
+tellraw @a " "
+tellraw @a "Discord"
