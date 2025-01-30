@@ -1,3 +1,3 @@
-data remove storage ejt:text set value {}
+data remove storage __ejt:text set value {}
 
-run function ejt:standard_messages
+run function __ejt:standard_messages
