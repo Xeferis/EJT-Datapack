@@ -1,0 +1,1 @@
+tellraw @a {"text":"Welcome to the server!","color":"gold"}
