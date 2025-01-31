@@ -1,0 +1,11 @@
+tellraw @a "# Setting the message values"
+tellraw @a "/data modify storage ejt:text subtitle set value *YOUR TEXT*"
+tellraw @a "/data modify storage ejt:text backup set value *YOUR TEXT*"
+tellraw @a "/data modify storage ejt:text infos set value *YOUR TEXT*"
+
+tellraw @a " "
+tellraw @a "# Getting Help"
+tellraw @a "/function ejt:help"
+tellraw @a " "
+tellraw @a "# Cleanup Storage and reset message values"
+tellraw @a "/function ejt:clean_messages"
