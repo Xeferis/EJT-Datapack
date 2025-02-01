@@ -15,7 +15,11 @@ To modify the Discord link you have to modify the discord.mcfunction
 /data modify storage ejt:text subtitle set value *YOUR TEXT*
 /data modify storage ejt:text backup set value *YOUR TEXT*
 /data modify storage ejt:text infos set value *YOUR TEXT*
-/data modify storage ejt:text discord_link set value *YOUR TEXT*
+
+# To change the Discord link, you have to go into the Datapack (No other way till now ... :()
+# Goto: *mc_version*/data/__ejt/function/discord.mcfunction
+# Change the value on the far left, wich is filled in with: Change_THIS_to_your_URL (Dont forget "")
+# Note in Versions before 1.21.4 the function Folder is called functions
 
 # Getting Stored Data
 /function ejt:get_data
