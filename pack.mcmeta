@@ -1,6 +1,19 @@
 {
-    "pack": {
-        "pack_format": 18,
-        "description": "Easy Join Title - Datapack v1.0.0-prerelease"
-    }
+  "pack": {
+    "pack_format": 18,
+    "supported_formats": [18, 61],
+    "description": "Easy Join Title - Datapack v1.3.0"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 18,
+        "directory": "1.20.2"
+      },
+      {
+        "formats": 61,
+        "directory": "1.21.4"
+      }
+    ]
+  }
 }
