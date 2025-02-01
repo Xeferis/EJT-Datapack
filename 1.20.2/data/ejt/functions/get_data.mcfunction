@@ -1,3 +1,4 @@
-execute as @a run data get storage ejt:text infos
-execute as @a run data get storage ejt:text backup
-execute as @a run data get storage ejt:text subtitle
+tellraw @a [{"text":"Subtitle: "},{"nbt":"subtitle","storage":"ejt:text"}]
+tellraw @a [{"text":"Last Backup: "},{"nbt":"backup","storage":"ejt:text"}]
+tellraw @a [{"text":"Infos: "},{"nbt":"infos","storage":"ejt:text"}]
+tellraw @a [{"text":"Discord Link: "},{"nbt":"discord_link","storage":"ejt:text"}]

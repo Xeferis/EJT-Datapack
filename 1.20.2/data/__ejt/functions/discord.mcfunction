@@ -1,2 +1,2 @@
 # Discord Message - Change this text here or delete it! - current link is for my Server!
-tellraw @a[scores={registered=1..}] [{"text":"CLICK: ","bold":true},{"text":"<<Join Discord Server>>","color":"dark_green","underlined":true,"clickEvent":{"action":"open_url","value":"https://discord.gg/pAcCn57D95"}}]
+tellraw @a[scores={registered=1..}] [{"text":"CLICK: ","bold":true},{"text":"<<Join Discord Server>>","color":"dark_green","underlined":true,"clickEvent":{"action":"open_url","value": "$(discord_link)"}}]

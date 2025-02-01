@@ -15,7 +15,10 @@ To modify the Discord link you have to modify the discord.mcfunction
 /data modify storage ejt:text subtitle set value *YOUR TEXT*
 /data modify storage ejt:text backup set value *YOUR TEXT*
 /data modify storage ejt:text infos set value *YOUR TEXT*
+/data modify storage ejt:text discord_link set value *YOUR TEXT*
 
+# Getting Stored Data
+/function ejt:get_data
 
 # Getting Help
 /function ejt:help
