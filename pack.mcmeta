@@ -1,8 +1,8 @@
 {
   "pack": {
-    "pack_format": 18,
-    "supported_formats": [18, 61, 88.0],
-    "description": "Easy Join Title - Datapack v1.4.0"
+    "pack_format": 88,
+    "supported_formats": [18, 61, 88],
+    "description": "Easy Join Title - Datapack v1.4.1"
   },
   "overlays": {
     "entries": [
