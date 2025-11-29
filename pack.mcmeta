@@ -1,7 +1,7 @@
 {
   "pack": {
     "pack_format": 18,
-    "supported_formats": [18, 61],
+    "supported_formats": [18, 61, 88],
     "description": "Easy Join Title - Datapack v1.3.0"
   },
   "overlays": {
@@ -12,7 +12,11 @@
       },
       {
         "formats": 61,
-        "directory": "1.21.4"
+        "directory": "1.21.x"
+      },
+      {
+        "formats": 88,
+        "directory": "1.21.x"
       }
     ]
   }
