@@ -12,11 +12,11 @@
       },
       {
         "formats": 61,
-        "directory": "1.21.x"
+        "directory": "1.21.4"
       },
       {
         "formats": 88,
-        "directory": "1.21.x"
+        "directory": "1.21.10"
       }
     ]
   }
